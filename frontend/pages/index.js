@@ -1,7 +1,16 @@
-const Index = () => (
-    <div>
-        Welcome to Schnell Eats!
-    </div>
-);
+import {Button, Alert} from 'reactstrap';
 
-export default Index;
+export default () => {
+    return (
+        <div>
+            <Alert color="primary">
+                Hello world!
+            </Alert>
+            &nbsp; 
+            <Button color="primary">
+                Hello from next.js
+            </Button>
+        </div>
+
+    )
+};
