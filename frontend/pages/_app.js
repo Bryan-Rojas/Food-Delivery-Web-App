@@ -1,4 +1,19 @@
-/* _app.js */
+/* 
+
+This file will serve to override the default App.js used by Next and be rendered on each page, allowing us to set global styles/shared components in one place.
+
+You can read more about the _app.js handling here:
+
+https://nextjs.org/docs/#custom-app
+
+Next.js uses the App component to initialize pages. You can override it and control the page initialization. Which allows you to do amazing things like:
+
+- Persisting layout between page changes
+- Keeping state when navigating pages
+- Custom error handling using componentDidCatch
+- Inject additional data into pages (for example by processing GraphQL queries)
+
+*/
 
 import React from 'react';
 import App, {Container} from 'next/app';
