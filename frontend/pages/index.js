@@ -1,16 +1,15 @@
-import {Button, Alert} from 'reactstrap';
+import { Button, Alert } from "reactstrap";
+import Layout from "../components/Layout";
 
 export default () => {
-    return (
-        <div>
-            <Alert color="primary">
-                Hello world!
-            </Alert>
-            &nbsp; 
-            <Button color="primary">
-                Hello from next.js
-            </Button>
-        </div>
-
-    )
+  return (
+    <Layout>
+      <div>
+        <Alert color="primary">
+          Hello Project is strapi-next with Bootstrap
+        </Alert>
+        &nbsp; <Button color="primary">Hello from nextjs</Button>
+      </div>
+    </Layout>
+  );
 };
