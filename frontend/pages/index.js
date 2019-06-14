@@ -6,7 +6,7 @@ export default () => {
     <Layout>
       <div>
         <Alert color="primary">
-          Hello Project is strapi-next with Bootstrap
+          Schnell foods?
         </Alert>
         &nbsp; <Button color="primary">Hello from nextjs</Button>
       </div>
